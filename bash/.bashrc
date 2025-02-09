@@ -95,6 +95,7 @@ alias lt='eza -T'
 alias la='eza -la'
 alias l='eza'
 alias v='nvim'
+alias lz='lazygit'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

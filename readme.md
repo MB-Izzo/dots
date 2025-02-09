@@ -1,5 +1,7 @@
 # New dotfiles
 
+stow [folder] 
+
 ## Stuff to install
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [fd](https://github.com/sharkdp/fd) (symlink needed on ubuntu) (sudo ln --symbolic $(which fdfind) /usr/local/bin/fd)
@@ -12,6 +14,7 @@
 * [z](https://github.com/ajeetdsouza/zoxide) (smarter cd)
 * [diffnav](https://github.com/dlvhdr/diffnav)
 * [homebrew](https://brew.sh/)
+* stow
 * zig
 * gcc
 * python

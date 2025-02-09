@@ -5,9 +5,7 @@
 * [fd](https://github.com/sharkdp/fd) (symlink needed on ubuntu) (sudo ln --symbolic $(which fdfind) /usr/local/bin/fd)
 * [fzf](https://github.com/junegunn/fzf) 
 * [neovim](https://github.com/neovim/neovim) 
-* build-essential
 * [tldr-pages](https://github.com/tldr-pages/tldr) 
-* python
 * [eza](https://github.com/eza-community/eza) (better ls)
 * [lazygit](https://github.com/jesseduffield/lazygit) (git TUI)
 * [starship](https://github.com/starship/starship) (prompt)
@@ -16,3 +14,5 @@
 * [homebrew](https://brew.sh/)
 * zig
 * gcc
+* python
+* build-essential

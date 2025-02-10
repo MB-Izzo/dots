@@ -3,7 +3,6 @@
 # for examples
 #
 cd ~
-bind -x '"\C-f": ~/.local/bin/tmux-sessionizer.sh'
 
 # If not running interactively, don't do anything
 case $- in
@@ -95,6 +94,9 @@ alias lt='eza -T' # tree
 
 alias v='nvim'
 alias lz='lazygit'
+
+# keybinds
+bind -x '"\C-f": ~/.local/bin/tmux-sessionizer.sh'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

@@ -92,6 +92,7 @@ alias ld='eza -D'
 alias la='eza -la'
 alias lt='eza -T' # tree
 
+# bin aliases
 alias v='nvim'
 alias lz='lazygit'
 

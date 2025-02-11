@@ -1,0 +1,16 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Mathieu Bouchonnet
+	email = mathieubouchonnet@gmail.com
+[pager]
+	diff = diffnav
+[core]
+	editor = nvim
+[merge]
+	tool = nvimdiff
+[mergetool]
+	prompt = false
+	keepBackup = false
+[mergetool "nvimdiff"]
+	layout = "LOCAL,BASE,REMOTE / MERGED"

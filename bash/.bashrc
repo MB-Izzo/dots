@@ -3,7 +3,6 @@
 # for examples
 #
 cd ~
-bind -x '"\C-f": ~/.local/bin/tmux-sessionizer.sh'
 
 # If not running interactively, don't do anything
 case $- in
@@ -78,7 +77,7 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
+    #alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
@@ -87,15 +86,18 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases
-alias lt='eza -T'
-alias la='eza -la'
+# some more ls eza aliases
 alias l='eza'
+alias ld='eza -D'
+alias la='eza -la'
+alias lt='eza -T' # tree
+
+# bin aliases
 alias v='nvim'
 alias lz='lazygit'
+
+# keybinds
+bind -x '"\C-f": ~/.local/bin/tmux-sessionizer.sh'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -122,6 +124,8 @@ if ! shopt -oq posix; then
 fi
 . "$HOME/.cargo/env"
 
+export PATH="~/.local/bin:$PATH"
+
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(zoxide init bash)"
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"

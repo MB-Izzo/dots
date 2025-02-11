@@ -125,6 +125,8 @@ fi
 . "$HOME/.cargo/env"
 
 export PATH="~/.local/bin:$PATH"
+export VISUAL=nvim
+export EDITOR="$VISUAL"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(starship init bash)"

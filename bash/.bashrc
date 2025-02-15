@@ -123,7 +123,7 @@ if ! shopt -oq posix; then
 fi
 . "$HOME/.cargo/env"
 
-export PATH="~/.local/bin:$PATH"
+export PATH="~/.local/bin:/opt/nvim:$PATH"
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 

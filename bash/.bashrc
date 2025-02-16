@@ -94,6 +94,7 @@ alias lt='eza -T' # tree
 # bin aliases
 alias v='nvim'
 alias lz='lazygit'
+alias sdl='music-dl.sh'
 
 # keybinds
 bind -x '"\C-f": ~/.local/bin/tmux-sessionizer.sh'

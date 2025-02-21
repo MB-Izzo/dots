@@ -178,6 +178,3 @@ bar {
 
 # for wallpaper
 exec_always --no-startup-id feh --bg-scale /home/mthi/Pictures/bg.jpg
-# change with mouse ID found with xinput
-exec_always xinput --set-prop 8 'libinput Accel Profile Enabled' 0, 1
-

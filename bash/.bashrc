@@ -95,9 +95,11 @@ alias lt='eza -T' # tree
 alias v='nvim'
 alias lz='lazygit'
 alias sdl='music-dl.sh'
+alias dmsym='dmenulinker.sh'
 
 # keybinds
 bind -x '"\C-f": ~/.local/bin/tmux-sessionizer.sh'
+bind -x '"\C-g": glow ~/personal/mywiki/myaliases.md -p'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
